@@ -1,4 +1,4 @@
-[CmdletBinding()]
+﻿[CmdletBinding()]
 param(
     [Parameter(Mandatory = $true)]
     [string]$ServerRoot,
@@ -6,11 +6,15 @@ param(
     [ValidateSet('Official', 'Manual')]
     [string]$Mode = 'Official',
 
-    [string]$ConfigPath = (Join-Path $PSScriptRoot 'config.json')
+    [string]$ConfigPath
 )
 
 $ErrorActionPreference = 'Stop'
 Set-StrictMode -Version 2.0
+
+if ([string]::IsNullOrWhiteSpace($ConfigPath)) {
+    $ConfigPath = Join-Path $PSScriptRoot 'config.json'
+}
 
 function Install-CleanDirectory {
     param(

@@ -1,10 +1,14 @@
-[CmdletBinding()]
+﻿[CmdletBinding()]
 param(
-    [string]$ConfigPath = (Join-Path $PSScriptRoot 'config.json')
+    [string]$ConfigPath
 )
 
 $ErrorActionPreference = 'Stop'
 Set-StrictMode -Version 2.0
+
+if ([string]::IsNullOrWhiteSpace($ConfigPath)) {
+    $ConfigPath = Join-Path $PSScriptRoot 'config.json'
+}
 
 $Suitabilities = @(
     'EmitFlame',
