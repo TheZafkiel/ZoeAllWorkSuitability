@@ -149,3 +149,7 @@ PalSchema 文档站显示的文档版本不一定等于最新二进制版本；�
 - [Palworld Modding Kit SDK](https://github.com/localcc/PalworldModdingKit)
 
 技术路线和字段依据见 [`docs/technical-basis.md`](docs/technical-basis.md)。
+
+## 开源许可证
+
+本项目源码以 [MIT License](LICENSE) 发布，可使用、复制、修改和再分发，但必须保留原始版权与许可声明。本项目不捆绑游戏资产、UE4SS 或 PalSchema；这些第三方项目及游戏内容适用各自的许可证和条款。

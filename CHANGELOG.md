@@ -10,3 +10,4 @@
 - Added bilingual installation guidance, privacy/security documentation, checksums, and automated validation.
 - Removed conversation-specific wording and release metadata.
 - Verified build, validation, and installer behavior on Windows PowerShell 5.1 and PowerShell 7.
+- Published the project source under the MIT License.

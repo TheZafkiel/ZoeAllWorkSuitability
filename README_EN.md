@@ -90,3 +90,7 @@ This patch does not add a custom save schema. Removing it restores the original 
 The repository and release packages contain no server logs, saves, Steam IDs, IP addresses, credentials, tokens, cookies, or machine-specific paths. There is no telemetry, network upload, or credential-reading code. See [`PRIVACY.md`](PRIVACY.md) and [`SECURITY.md`](SECURITY.md).
 
 Technical notes and upstream references are in [`docs/technical-basis.md`](docs/technical-basis.md). The data structure was last manually checked on 2026-09-01; revalidate after game, UE4SS, or PalSchema updates.
+
+## License
+
+This project's source is released under the [MIT License](LICENSE). You may use, copy, modify, and redistribute it as long as the original copyright and license notice are retained. Game assets, UE4SS, and PalSchema are not bundled and remain subject to their respective licenses and terms.
