@@ -1,0 +1,32 @@
+{
+  "packageName": "ZoeAllWorkLv10",
+  "modName": "Zoe All Work Suitability Lv10",
+  "version": "1.1.0",
+  "author": "ZoeAllWorkSuitability contributors",
+  "debugMode": false,
+  "targets": {
+    "DT_PalMonsterParameter": [
+      "GYM_ElecPanda",
+      "GYM_ElecPanda_2",
+      "GYM_ElecPanda_Otomo"
+    ],
+    "DT_PalHumanParameter": [
+      "GrassBoss"
+    ]
+  },
+  "levels": {
+    "EmitFlame": 10,
+    "Watering": 10,
+    "Seeding": 10,
+    "GenerateElectricity": 10,
+    "Handcraft": 10,
+    "Collection": 10,
+    "Deforest": 10,
+    "Mining": 10,
+    "OilExtraction": 10,
+    "ProductMedicine": 10,
+    "Cool": 10,
+    "Transport": 10,
+    "MonsterFarm": 10
+  }
+}

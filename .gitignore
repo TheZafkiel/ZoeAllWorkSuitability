@@ -1,0 +1,31 @@
+# Generated release artifacts
+/dist/
+*.zip
+
+# Logs, dumps, saves, backups, and local configuration
+*.log
+*.dmp
+*.sav
+*.bak
+*.bak-*
+.env
+.env.*
+!.env.example
+
+# Never commit a copied Palworld server or mod-loader installation
+/Pal/
+/Mods/
+/UE4SS/
+/ue4ss/
+/PalDefender/
+/Saved/
+/PalWorldSettings.ini
+/GameUserSettings.ini
+/Engine.ini
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
